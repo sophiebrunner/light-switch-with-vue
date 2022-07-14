@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+main {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 1s ease-in-out;
+}
+
+button {
+  padding: 1rem;
+  font-family: "Bangers";
+  font-size: 3rem;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.night {
+  background-color: black;
+}
+
+.day {
+  background-color: white;
+}
+
+.btnAtNight {
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  box-shadow: 0 0 20px yellow, 0 0 10px yellow, 0 0 5px yellow;
+}
